@@ -1,0 +1,131 @@
+page{
+  background: #F4F4F4;
+}
+/* .container{
+  position: absolute;
+  left: 0px;s
+  width: 100%;
+  height: 100%;
+  background: #F4F4F4;
+} */
+.header{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 239px;
+  border-radius: 0px 0px 30px 30px;
+  background: #FFFFFF;
+  height: 159px;
+}
+van-image{
+  position: absolute;
+  left: 24px;
+  top: 20px;
+  width: 80px;
+  height: 80px;
+}
+
+.nickname{
+  position: absolute;
+  left: 143px;
+  top: 17px;
+  width: 80px;
+  height: 34px;
+  font-family: SourceHanSansCN-Regular;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 0em;
+  color: #123807;
+}
+
+.slogan{
+  position: absolute;
+  left: 143px;
+  top: 58px;
+  width: 252px;
+  height: 22px;
+  font-family: SourceHanSansCN-Regular;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0em;
+  color: #3D3D3D;
+}
+
+.menu{
+  position: absolute;
+  left: 0px;
+  top: 201px;
+  width: 427px;
+  height: 237px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 0px 36px 0px;
+  background: rgba(255, 255, 255, 0);
+}
+
+.menu-item{
+  left: 0px;
+  width: 750rpx;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 18px;
+  padding-top: 8px;
+  background: #FFFFFF;
+}
+
+.icon{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+.menu-text{
+
+  position: absolute;
+  width: 151px;
+  height: 33px;
+  padding-left: 44px;
+  font-family: SourceHanSansCN-Regular;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 0em;
+  color: #3D3D3D;
+
+}
+.tab{
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  height:90px;
+  background: white;
+}
+
+.more{
+  position: absolute;
+  left: 310px;
+  top: -0.5px;
+  width: 122px;
+  height: 40px;
+}
+
+.more-text{
+  position: absolute;
+  left: 37px;
+  top: 8px;
+  width: 62px;
+  height: 30px;
+  font-family: SourceHanSansCN-Regular;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 0em;
+  color: #7DB06E;
+}
+.more-icon{
+  position: absolute;
+  left: 78px;
+  top: 11px;
+  width: 24px;
+  height: 24px;
+}

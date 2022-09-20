@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+
+  },
+  "navigationBarBackgroundColor": "#6AA573",
+  "navigationBarTitleText": "年轮唱片机",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#fff",
+  "backgroundTextStyle": "light"
+}

@@ -1,0 +1,89 @@
+page{
+  background: #7DB06E;
+}
+/* 
+#back{
+  
+  left: 23rpx;
+  top: 88rpx;
+  width: 44rpx;
+  height: 44rpx;
+} */
+
+.slogan{
+  position: absolute;
+  left: 86rpx;
+  top: 223rpx;
+  width: 575rpx;
+  height: 108rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-size: 35rpx;
+  font-weight: normal;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.tips{
+  position: absolute;
+  left: 280rpx;
+  bottom: 530rpx;
+  width: 750rpx;
+  height: 32rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-size: 31rpx;
+  font-weight: normal;
+  letter-spacing: 0em;
+  /* Background/Dark */
+  color: #EEEEEE;
+  text-align: center;
+}
+
+.button{
+  position: absolute;
+
+  left: 213rpx;
+  bottom: 287rpx;
+  width: 376rpx;
+  height: 133rpx;
+  border-radius: 88rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx 14rpx 56rpx 0rpx rgba(0, 0, 0, 0.16);
+
+  color: #123807;
+  font-family: SourceHanSansCN-Regular;
+  font-size: 52rpx;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 0em;
+}
+
+.pictures{
+  position: absolute;
+  bottom: 632rpx;
+  width: 100%;
+  height: 482rpx;
+}
+.prev{
+  position: absolute;
+  left: 8px;
+  bottom: 827rpx;
+  width: 40px;
+  height: 40px;
+}
+
+.next{
+  position: absolute;
+  left: 370px;
+  bottom: 827rpx;
+  width: 40px;
+  height: 40px;
+  transform: rotate(180deg);
+}
+
+image{
+  position: absolute;
+  left: 135rpx;
+  width: 482rpx;
+  height: 478rpx;
+}

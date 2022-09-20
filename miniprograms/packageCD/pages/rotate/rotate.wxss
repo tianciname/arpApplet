@@ -1,0 +1,70 @@
+page{
+    background: #7DB06E;
+}
+
+.slogan{
+    position: absolute;
+    left: 86rpx;
+    top: 223rpx;
+    width: 575rpx;
+    height: 108rpx;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 35rpx;
+    font-weight: normal;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.picture{
+    position: absolute;
+    left: 62px;
+    top: 230px;
+    width: 315px;
+    height: 309px;
+  }
+
+  .pic{
+    display: flex;
+    width: 100%;
+    top: 150rpx;
+    bottom: 150rpx;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+
+.animation-element{
+  position: absolute;
+  width: 315px;
+  height: 309px;
+  top: 230px;
+  left: 100rpx;
+  background-image: url('https://6364-cd-9gqvj0r9597e8bd4-1313433290.tcb.qcloud.la/310-3-1-1-1.png?sign=d685e159790ddccef4163b3d8b29dfeb&t=1663228761');
+}
+
+.needle{
+    position: absolute;
+    left: -77px;
+    top: 89px;
+    width: 651px;
+    height: 518px;
+}
+
+.button{
+    position: absolute;
+  
+    left: 213rpx;
+    bottom: 287rpx;
+    width: 376rpx;
+    height: 133rpx;
+    border-radius: 88rpx;
+    background: #FFFFFF;
+    box-shadow: 0rpx 14rpx 56rpx 0rpx rgba(0, 0, 0, 0.16);
+  
+    color: #123807;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 52rpx;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 0em;
+  }

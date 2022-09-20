@@ -1,0 +1,9 @@
+<view class="slogan">点击按钮，停下旋转的年轮唱片，生成您的专属音乐</view>
+<view class="pic">
+  <!-- <view class="animation-element"></view> -->
+  <image class="picture" src="../../image/310-3-1-1.png"></image>
+  <image class="needle" src="../../image/1.png"></image>
+</view>
+<navigator url="../result/result">
+  <button class="button" style="position: absolute; left: 188rpx; top: 1085rpx" bindtap="stop">生成音乐</button>
+</navigator>

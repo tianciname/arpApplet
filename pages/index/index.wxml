@@ -1,0 +1,22 @@
+<!-- index.wxml-->
+<view class="container">
+  <navigator class="CDforest" url="../../packageCD/pages/togenerate/togenerate">
+    <view class="card1">
+      <view>
+        <image src="../../image/forest.png" id="forest"></image>
+      </view>
+      <view class="title">{{title[0]}}</view>
+      <view class="sentence">{{sentences[0]}}</view>
+    </view>
+  </navigator>
+  <navigator class="make_CDPlayer" url="">
+    <view class="card2">
+      <view>
+        <image src="../../image/CD.png" id="cd"></image>
+      </view>
+      <view class="title">{{title[1]}}</view>
+      <view class="sentence" id="sentence1">{{sentences[1]}}</view>
+    </view>
+  </navigator>
+</view>
+<Tabs></Tabs>

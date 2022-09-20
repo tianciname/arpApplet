@@ -1,0 +1,35 @@
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  background: rgba(0, 0, 0, 0);
+  display: flex;
+}
+
+.tab-bar-item {
+  flex:1;
+  padding-top: 22px;
+  padding-left: 66px;
+  padding-right: 71px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tab-bar-item cover-image {
+  width: 40px;
+  height: 40px;
+}
+
+.tab-bar-item cover-view {
+  width: 34px;
+  height: 27px; 
+  font-family: SourceHanSansCN-Regular;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0em;
+}

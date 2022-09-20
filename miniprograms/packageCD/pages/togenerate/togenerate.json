@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#7DB06E",
+  "navigationBarTitleText": "唱片森林",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#fff",
+  "backgroundTextStyle": "light"
+}

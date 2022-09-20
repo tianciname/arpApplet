@@ -1,0 +1,33 @@
+page{
+  background: white;
+}
+.item{
+  position: absolute;
+  width: 427px;
+  height: 210px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+}
+
+.item-image{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: #D8D8D8;
+}
+
+.item-name{
+  position: absolute;
+  left: 12px;
+  top: 152px;
+  width: 123px;
+  height: 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0em;
+  color: #3D3D3D;
+}

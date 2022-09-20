@@ -1,0 +1,10 @@
+<!-- <view class="canvasView">
+ 
+ <canvas canvas-id="circle" style="width:{{width}}rpx;height:{{height}}rpx;">
+   
+ </canvas>
+ <text hidden="{{!showText}}" style="font-size:{{textSize}}rpx;color:{{textColor}}">{{percentage}}%</text>
+</view> -->
+
+<!-- 2d 类型的 canvas -->
+<canvas id="circle" type="2d" style="border: 1px solid; "></canvas>

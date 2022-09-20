@@ -1,0 +1,22 @@
+<view class="time">
+  <text>
+    {{currentTime}}/{{duration}}
+  </text>
+</view>
+<view class="player">
+  <view class="circle"></view>
+  <image class="picture" src="../../image/310-3-1-1.png"></image>
+    <canvas type="2d" class="progress_bg" canvas-id="canvasProgressBg" id="ProgressBgId"></canvas>
+    <canvas type="2d"  class="progress_canvas" canvas-id="canvasProgress" id="ProgressId"></canvas>
+    <view class="animation-element-wrapper">
+        <view class="animation-element" animation="{{animation}}"></view>
+      </view>
+</view>
+<view class="icon">
+  <image class="like" src="../../image/like.png"></image>
+  <image class="control" hidden="{{!isPlay}}"  src="../../image/pause.png" bindtap="pause"></image>
+  <image class="control" hidden="{{isPlay}}" src="../../image/play.png" bindtap="play"></image>
+  <image class="share" src="../../image/share.png"></image>
+</view>
+<!-- audio.wxml -->
+

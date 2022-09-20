@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="item" wx:for="{{collection}}">
+    <image class="item-image" src="{{item.image}}"></image>
+    <text class="item-name">{{item.name}}</text>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+<!--pages/togenerate/togenerate.wxml-->
+<!-- <view class="headline">唱片森林</view> -->
+<view class="slogan">我们会在唱片森林中随机为您挑选一个年轮，生成音乐</view>
+<swiper class="pictures"autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}" current="{{swiper.current}}">
+  <block>
+    <swiper-item  wx:for="{{swiper.pics}}" wx:key="{{swiper.pics.id}}">
+      <image src="{{item.picUrl}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<image wx:if="{{previsShow}}" src="../../image/prev.png" class="prev" bindtap='prev'></image>
+<image wx:if="{{nextisShow}}" src="../../image/prev.png" class="next" bindtap='next'></image>
+<view class="tips" style="position: absolute; left: -2rpx; top: 936rpx">滑动更换年轮</view>
+<navigator url="../rotate/rotate">
+  <button class="button" style="position: absolute; left: 188rpx; top: 1085rpx">确定图片</button>
+</navigator>
+
